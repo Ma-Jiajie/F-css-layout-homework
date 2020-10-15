@@ -95,8 +95,10 @@ a:hover {
 }
 
 .article-team {
-  width: 45%;
+  width: 48%;
   height: 40%;
+  display: flex;
+  flex-direction: column;
 }
 
 .article-message {
@@ -109,11 +111,12 @@ a:hover {
   width: 100%;
   margin-top: 20px;
   border: 1px solid #e4e4e4;
+  box-shadow: #e4e4e4;
 }
 
 .article-long {
   background-color: #ffffff;
-  width: 400px;
+  width: 48%;
   margin-top: 20px;
   height: 72%;
   border: 1px solid #e4e4e4;
@@ -148,10 +151,12 @@ a:hover {
 }
 
 .sign-btn {
-  background-color: #007bff;
+  background-color: #087bfe;
   width: 100%;
   height: 40px;
   font-size: 20px;
+  color: white;
+  border: none;
 }
 
 .input-text {
